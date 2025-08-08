@@ -12,7 +12,7 @@
 
 .backgroundImage {
   background-image: url("../../public/landing-BG.png");
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;

@@ -18,7 +18,6 @@ function HeroIntroSection() {
 
         <div className="absolute inset-0 bg-gradient-to-b from-black via-[#8A38F5] to-[#FF4DC3] opacity-30 z-10" />
       </div>
-
       {videoEnded && (
         <motion.div
           initial={{ opacity: 0, y: 20 }}
