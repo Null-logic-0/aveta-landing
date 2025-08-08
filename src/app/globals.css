@@ -10,9 +10,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.backGround {
+.backgroundImage {
   background-image: url("../../public/landing-BG.png");
-  height: 100%;
+  height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
