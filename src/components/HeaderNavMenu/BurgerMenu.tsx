@@ -25,7 +25,7 @@ function BurgerMenu() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -40 }}
             transition={{ duration: 0.3 }}
-            className="fixed flex flex-col items-center justify-between top-0 bg-[#080918] p-3 mx-auto right-0 h-full w-full z-50"
+            className="fixed flex flex-col  items-center justify-between top-0 bg-[#080918] p-3 mx-auto right-0 h-screen w-full z-50"
           >
             <button
               className="fixed top-2 right-2"

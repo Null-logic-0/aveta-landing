@@ -6,7 +6,7 @@ import HeaderNavMenuItem from "./HeaderNavMenuItem";
 
 function HeaderNavMenu() {
   return (
-    <header className="px-6 py-3  backdrop-blur-md bg-[#11141D]/50  fixed w-full z-50">
+    <header className="px-6 py-3   backdrop-blur-md bg-[#11141D]/50  fixed w-full z-50">
       <nav className="flex items-center justify-between">
         <Logo />
         <ul className="flex items-center justify-center gap-6 max-lg:hidden">
