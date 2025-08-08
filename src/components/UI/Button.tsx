@@ -29,7 +29,7 @@ function Button({
         `${
           isDisabled
             ? `${buttonStyle} opacity-50 cursor-not-allowed`
-            : `${buttonStyle} cursor-pointer hover:opacity-50`
+            : `${buttonStyle} cursor-pointer`
         }  rounded-[6px] flex justify-center items-center gap-2 py-3 px-2 text-sm font-semibold w-full`,
         className
       )}

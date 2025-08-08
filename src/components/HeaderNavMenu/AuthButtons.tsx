@@ -1,8 +1,8 @@
 "use client";
+import { handleNavigate } from "@/utils/redirect-to-chat";
 import Button from "../UI/Button";
 
 function AuthButtons() {
-  const handleNavigate = () => window.open("https://chat.aveta.app", "_blank");
   return (
     <div className="flex items-center justify-center gap-3  max-lg:flex-col max-lg:w-full">
       <Button
