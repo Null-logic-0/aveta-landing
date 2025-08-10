@@ -8,7 +8,7 @@ import SectionImage from "../../../public/image2.png";
 function AboutUs() {
   return (
     <section
-      id="#about-us"
+      id="about-us"
       className="flex items-start justify-between max-lg:flex-wrap max-lg:gap-6 max-lg:justify-center"
     >
       <div className="flex flex-col gap-4 max-w-[600px] max-lg:items-center">
