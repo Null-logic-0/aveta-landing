@@ -1,6 +1,18 @@
-function Paragraph({ text }: { text: string }) {
+import { twMerge } from "tailwind-merge";
+
+type ParagraphProps = {
+  text: string;
+  className?: string;
+};
+
+function Paragraph({ text, className }: ParagraphProps) {
   return (
-    <p className="text-center text-xl opacity-70 font-medium  max-lg:text-lg max-sm:text-sm">
+    <p
+      className={twMerge(
+        "text-xl opacity-70 font-medium  max-lg:text-lg max-sm:text-sm",
+        className
+      )}
+    >
       {text}
     </p>
   );
