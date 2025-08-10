@@ -7,7 +7,10 @@ function Hero() {
   return (
     <>
       <HeroIntroSection />
-      <div className="px-6 pb-6 pt-16 relative flex items-center overflow-hidden justify-center flex-col lg:hidden">
+      <div
+        id="#home"
+        className="px-6 pb-6 pt-16 relative flex items-center overflow-hidden justify-center flex-col lg:hidden"
+      >
         <Image
           src={bgImage}
           alt="bg-image"

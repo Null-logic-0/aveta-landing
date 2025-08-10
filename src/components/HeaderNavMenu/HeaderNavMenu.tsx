@@ -1,6 +1,6 @@
 import Logo from "../UI/Logo";
-import AuthButtons from "./AuthButtons";
 import BurgerMenu from "./BurgerMenu";
+import AuthButtons from "./AuthButtons";
 import { NAV_ITEMS } from "@/constants/nav-items";
 import HeaderNavMenuItem from "./HeaderNavMenuItem";
 

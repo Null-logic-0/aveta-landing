@@ -2,7 +2,7 @@ export const NAV_ITEMS = [
   {
     id: "home",
     title: "Home",
-    href: "/",
+    href: "#home",
   },
   {
     id: "how-it-works",
