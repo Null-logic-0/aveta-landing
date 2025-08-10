@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Heading from "../UI/Heading";
 import DefaultImage from "../../../public/default-image.jpg";
+import { formatDate } from "@/helpers/format-date";
 
 type BlogDetailProps = {
   media: string;
@@ -26,7 +27,7 @@ function BlogDetails({ media, title, content, date }: BlogDetailProps) {
 
       <div className="flex flex-col items-start w-full gap-2">
         <Heading text={title} />
-        <p className="text-sm font-semibold opacity-50">{date}</p>
+        <p className="text-sm font-semibold opacity-50">{formatDate(date)}</p>
       </div>
       <div className="text-lg font-semibold opacity-70 max-md:text-sm">
         {content.split("\n").map((line, i) => (
