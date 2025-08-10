@@ -13,7 +13,7 @@ type BlogCardType = {
 
 function BlogCard({ media, title, excerpt, blogId }: BlogCardType) {
   return (
-    <Link href={`blogs/${blogId}`}>
+    <Link href={`/blogs/${blogId}`}>
       <CardLayout className="flex hover:border-white transform transition-all cursor-pointer  flex-col gap-6 p-6 h-[363px] max-md:h-full  w-full max-w-[394px]">
         <div className="relative w-full aspect-[16/10] rounded-xl overflow-hidden">
           <Image
