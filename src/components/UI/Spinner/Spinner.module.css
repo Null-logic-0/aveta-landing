@@ -12,10 +12,10 @@
   width: 54px;
   height: 54px;
   margin: 6px;
-  border: 4px solid #8a38f5;
+  border: 4px solid #ff4dc3;
   border-radius: 50%;
   animation: spinner 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-  border-color: #8a38f5 transparent transparent transparent;
+  border-color: #ff4dc3 transparent transparent transparent;
 }
 .spinner div:nth-child(1) {
   animation-delay: -0.45s;
