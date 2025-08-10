@@ -2,6 +2,7 @@ import CTA from "@/components/CTA";
 import Hero from "@/components/Hero/Hero";
 import HowItWorks from "@/components/HowItWorks";
 import HeaderNavMenu from "@/components/HeaderNavMenu/HeaderNavMenu";
+import AboutUs from "@/components/AboutUs/AboutUs";
 
 function HomePage() {
   return (
@@ -11,6 +12,7 @@ function HomePage() {
       <div className="p-6 max-w-[1200px] mt-[64px] flex flex-col gap-[120px] w-full mx-auto">
         <CTA />
         <HowItWorks />
+        <AboutUs />
       </div>
     </div>
   );
