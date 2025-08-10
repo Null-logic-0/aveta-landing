@@ -1,8 +1,9 @@
 import CTA from "@/components/CTA";
 import Hero from "@/components/Hero/Hero";
 import HowItWorks from "@/components/HowItWorks";
-import HeaderNavMenu from "@/components/HeaderNavMenu/HeaderNavMenu";
 import AboutUs from "@/components/AboutUs/AboutUs";
+import Pricing from "@/components/PricePlan/Pricing";
+import HeaderNavMenu from "@/components/HeaderNavMenu/HeaderNavMenu";
 
 function HomePage() {
   return (
@@ -13,6 +14,7 @@ function HomePage() {
         <CTA />
         <HowItWorks />
         <AboutUs />
+        <Pricing />
       </div>
     </div>
   );
