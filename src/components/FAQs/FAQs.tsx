@@ -5,8 +5,8 @@ import FaqAccordion from "./FaqAccordion";
 function FAQs() {
   return (
     <section
-      id="faq"
-      className="flex flex-col items-center justify-center gap-4 w-full"
+      id="faqs"
+      className="flex flex-col  items-center justify-center gap-4 w-full"
     >
       <SubHeading text="FAQs" />
       <Heading text="Everything You Need to Know." />

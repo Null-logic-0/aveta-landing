@@ -3,8 +3,11 @@ import BurgerMenu from "./BurgerMenu";
 import AuthButtons from "./AuthButtons";
 import { NAV_ITEMS } from "@/constants/nav-items";
 import HeaderNavMenuItem from "./HeaderNavMenuItem";
+import ScrollHashUpdater from "./ScrollHashUpdater";
 
 function HeaderNavMenu() {
+  const sectionIds = NAV_ITEMS.map((item) => item.id);
+
   return (
     <header className="px-6 py-3   backdrop-blur-md bg-[#11141D]/50  fixed w-full z-50">
       <nav className="flex items-center justify-between">
@@ -18,6 +21,7 @@ function HeaderNavMenu() {
             />
           ))}
         </ul>
+        <ScrollHashUpdater sectionIds={sectionIds} />
         <div className="max-lg:hidden">
           <AuthButtons />
         </div>

@@ -5,12 +5,9 @@ import HeroContent from "./HeroContent";
 
 function Hero() {
   return (
-    <>
+    <div id="home">
       <HeroIntroSection />
-      <div
-        id="#home"
-        className="px-6 pb-6 pt-16 relative flex items-center overflow-hidden justify-center flex-col lg:hidden"
-      >
+      <div className="px-6 pb-6 pt-16 relative flex items-center overflow-hidden justify-center flex-col lg:hidden">
         <Image
           src={bgImage}
           alt="bg-image"
@@ -20,7 +17,7 @@ function Hero() {
           <HeroContent />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

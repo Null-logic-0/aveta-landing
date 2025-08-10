@@ -27,6 +27,6 @@ export const NAV_ITEMS = [
   {
     id: "faqs",
     title: "FAQs",
-    href: "#faq",
+    href: "#faqs",
   },
 ];
