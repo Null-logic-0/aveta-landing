@@ -25,6 +25,10 @@ Aveta Frontend (app)
 
 https://github.com/Null-logic-0/aveta-frontend
 
+Aveta Frontend (admin)
+
+https://github.com/Null-logic-0/aveta-admin
+
 
 🚀 Features
 
