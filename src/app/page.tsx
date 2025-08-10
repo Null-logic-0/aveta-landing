@@ -1,14 +1,15 @@
+import { Suspense } from "react";
 import CTA from "@/components/CTA";
+import FAQs from "@/components/FAQs/FAQs";
 import Hero from "@/components/Hero/Hero";
+import Blogs from "@/components/Blogs/Blogs";
 import HowItWorks from "@/components/HowItWorks";
 import AboutUs from "@/components/AboutUs/AboutUs";
-import Pricing from "@/components/PricePlan/Pricing";
-import HeaderNavMenu from "@/components/HeaderNavMenu/HeaderNavMenu";
-import Testimonials from "@/components/Testimonials";
-import FAQs from "@/components/FAQs/FAQs";
-import Blogs from "@/components/Blogs/Blogs";
 import Spinner from "@/components/UI/Spinner/Spinner";
-import { Suspense } from "react";
+import Pricing from "@/components/PricePlan/Pricing";
+import Testimonials from "@/components/Testimonials";
+import HeaderNavMenu from "@/components/HeaderNavMenu/HeaderNavMenu";
+import Footer from "@/components/Footer";
 
 function HomePage() {
   return (
@@ -33,6 +34,7 @@ function HomePage() {
 
         <FAQs />
       </div>
+      <Footer />
     </div>
   );
 }
