@@ -6,6 +6,9 @@ import Pricing from "@/components/PricePlan/Pricing";
 import HeaderNavMenu from "@/components/HeaderNavMenu/HeaderNavMenu";
 import Testimonials from "@/components/Testimonials";
 import FAQs from "@/components/FAQs/FAQs";
+import Blogs from "@/components/Blogs/Blogs";
+import Spinner from "@/components/UI/Spinner/Spinner";
+import { Suspense } from "react";
 
 function HomePage() {
   return (
@@ -18,6 +21,16 @@ function HomePage() {
         <AboutUs />
         <Pricing />
         <Testimonials />
+        <Suspense
+          fallback={
+            <div className="flex justify-center">
+              <Spinner />
+            </div>
+          }
+        >
+          <Blogs subHeading="Blogs" heading="New & Updates" />
+        </Suspense>
+
         <FAQs />
       </div>
     </div>

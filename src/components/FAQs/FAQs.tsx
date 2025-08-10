@@ -4,7 +4,10 @@ import FaqAccordion from "./FaqAccordion";
 
 function FAQs() {
   return (
-    <section className="flex flex-col items-center justify-center gap-4 w-full">
+    <section
+      id="faq"
+      className="flex flex-col items-center justify-center gap-4 w-full"
+    >
       <SubHeading text="FAQs" />
       <Heading text="Everything You Need to Know." />
       <div className="flex flex-col gap-6 w-full pt-6">
