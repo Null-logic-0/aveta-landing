@@ -5,6 +5,7 @@ import AboutUs from "@/components/AboutUs/AboutUs";
 import Pricing from "@/components/PricePlan/Pricing";
 import HeaderNavMenu from "@/components/HeaderNavMenu/HeaderNavMenu";
 import Testimonials from "@/components/Testimonials";
+import FAQs from "@/components/FAQs/FAQs";
 
 function HomePage() {
   return (
@@ -17,6 +18,7 @@ function HomePage() {
         <AboutUs />
         <Pricing />
         <Testimonials />
+        <FAQs />
       </div>
     </div>
   );
