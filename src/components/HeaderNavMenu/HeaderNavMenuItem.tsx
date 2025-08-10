@@ -41,7 +41,7 @@ export default function HeaderNavMenuItem({ link, title }: HeaderNavMenuProps) {
         href={link}
         scroll={true}
         className={clsx(
-          "transition-colors font-semibold text-[16px] transform hover:text-[#FF4DC3]",
+          "transition-colors font-semibold  text-[16px] transform hover:text-[#FF4DC3]",
           isActive ? "text-[#FF4DC3]" : "text-[#FFFFFF]"
         )}
       >
