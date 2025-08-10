@@ -4,10 +4,14 @@ import Spinner from "@/components/UI/Spinner/Spinner";
 import { fetchSingleBlog } from "@/lib/data-services";
 import BlogDetails from "@/components/Blogs/BlogDetails";
 
-async function BlogPage({ params }: { params: { blogId: number } }) {
+type BlogPageProps = {
+  params: Promise<{ blogId: string }>;
+};
+
+async function BlogPage({ params }: BlogPageProps) {
   const { blogId } = await params;
 
-  const { data } = await fetchSingleBlog(blogId);
+  const { data } = await fetchSingleBlog(Number(blogId));
 
   return (
     <>
