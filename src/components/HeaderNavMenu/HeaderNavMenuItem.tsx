@@ -8,9 +8,14 @@ import { useEffect, useState } from "react";
 type HeaderNavMenuProps = {
   link: string;
   title: string;
+  onClick?: () => void;
 };
 
-export default function HeaderNavMenuItem({ link, title }: HeaderNavMenuProps) {
+export default function HeaderNavMenuItem({
+  link,
+  title,
+  onClick,
+}: HeaderNavMenuProps) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const [hash, setHash] = useState<string>("");
@@ -38,6 +43,7 @@ export default function HeaderNavMenuItem({ link, title }: HeaderNavMenuProps) {
   return (
     <li>
       <Link
+        onClick={onClick}
         href={link}
         scroll={true}
         className={clsx(

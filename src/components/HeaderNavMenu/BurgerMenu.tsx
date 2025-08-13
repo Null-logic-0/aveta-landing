@@ -39,6 +39,7 @@ function BurgerMenu() {
                   key={item.id}
                   title={item.title}
                   link={item.href}
+                  onClick={() => setOpenMenu(false)}
                 />
               ))}
             </ul>
